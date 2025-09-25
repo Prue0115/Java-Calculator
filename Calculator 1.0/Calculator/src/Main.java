@@ -1,6 +1,7 @@
+//Calculator 1.0 2025.09.25 (ILJIN)
 public class Main {
     public static void main(String[] args) {
-        Calculator Calc = new Calculator(); //계산기 프로젝트
+        Calculator Calc = new Calculator();
 
         Calc.setNumbers(10, 5);
         Calc.add();
