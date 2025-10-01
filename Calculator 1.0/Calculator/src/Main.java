@@ -1,16 +1,16 @@
 //Calculator 1.0 2025.09.25 (ILJIN)
 public class Main {
     public static void main(String[] args) {
-        Calculator Calc = new Calculator();
+        Calculator basicCalc = new Calculator();
 
-        Calc.setNumbers(10, 5);
-        Calc.add();
-        Calc.displayResult("+");
+        basicCalc.setNumbers(10, 5);
+        basicCalc.add();
+        basicCalc.displayResult("+");
 
-        Calc.subtract();
-        Calc.displayResult("-");
+        basicCalc.subtract();
+        basicCalc.displayResult("-");
 
-        Calculator advancedCalc = new Calculator();
+        AdvancedCalculator advancedCalc = new AdvancedCalculator();
 
         advancedCalc.setNumbers(20, 7);
         advancedCalc.multiply();
